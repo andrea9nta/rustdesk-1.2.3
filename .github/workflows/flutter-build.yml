@@ -280,7 +280,7 @@ jobs:
         job:
           - {
               target: x86_64-apple-darwin,
-              os: X64,
+              os: macos-latest,
               extra-build-args: "",
               arch: x86_64
             }
